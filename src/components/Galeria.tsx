@@ -11,6 +11,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item1"
+				loading="lazy"
 			></Image>
 			<Image
 				src="/packj(2).webp"
@@ -18,6 +19,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item2"
+				loading="lazy"
 			></Image>
 			<Image
 				src="/packj(3).webp"
@@ -25,6 +27,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item3"
+				loading="lazy"
 			></Image>
 			<Image
 				src="/packj(4).webp"
@@ -32,6 +35,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item4"
+				loading="lazy"
 			></Image>
 			<Image
 				src="/packj(5).webp"
@@ -39,6 +43,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item5"
+				loading="lazy"
 			></Image>
 			<Image
 				src="/packj(6).webp"
@@ -46,6 +51,7 @@ const Galeria = () => {
 				width={width}
 				height={height}
 				className="item item6"
+				loading="lazy"
 			></Image>
 		</div>
 	);

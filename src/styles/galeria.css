@@ -7,6 +7,7 @@
 	--cantidad: 6;
 	--width: 400px;
 	--height: 200px;
+	--timing: 25s;
 }
 .wrapper {
 	margin-inline: auto;
@@ -27,9 +28,9 @@
 	height: var(--height);
 	border-radius: 6px;
 	position: absolute;
-	left: max(calc(400px * var(--cantidad)), 100%);
+	left: max(calc(var(--width) * var(--cantidad)), 100%);
 	animation-name: scrollleft;
-	animation-duration: 30s;
+	animation-duration: var(--timing);
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	object-fit: contain;
@@ -43,20 +44,32 @@
 }
 
 .item1 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 1) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 1) * -1
+	);
 }
 .item2 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 2) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 2) * -1
+	);
 }
 .item3 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 3) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 3) * -1
+	);
 }
 .item4 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 4) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 4) * -1
+	);
 }
 .item5 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 5) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 5) * -1
+	);
 }
 .item6 {
-	animation-delay: calc(30s / var(--cantidad) * (var(--cantidad)- 6) * -1);
+	animation-delay: calc(
+		var(--timing) / var(--cantidad) * (var(--cantidad)- 6) * -1
+	);
 }

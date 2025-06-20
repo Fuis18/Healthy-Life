@@ -6,7 +6,7 @@ const Products = () => {
 			<Product
 				title="Brownie de Plátano"
 				foto="/image(1).webp"
-				link="/FICHA TECNICA BROWNIE DE PLATANO.webp"
+				link="/FICHA_TECNICA_BROWNIE_DE_PLATANO.webp"
 			>
 				Dulzura natural y textura esponjosa. El sabor del plátano se
 				mezcla con el cacao y la palta para crear un brownie delicioso y

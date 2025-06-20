@@ -17,7 +17,7 @@ const Product = ({ title, foto, link, children }: ProductProps) => {
 				width={400}
 				height={300}
 				className="product-img"
-				priority={false}
+				priority
 			/>
 			<h3 className="product-h3">{title}</h3>
 			<div className="product-div">{children}</div>
