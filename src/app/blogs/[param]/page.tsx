@@ -1,3 +1,4 @@
+// import type { Metadata } from "next";
 import { use } from "react";
 import Background from "@/components/ui/Background";
 import Share from "@/components/Share";
@@ -205,21 +206,36 @@ const blogData: Record<string, BlogPost> = {
 	},
 };
 
-// export async function generateMetadata({
-// 	params,
-// }: {
+// type Props = {
 // 	params: { param: string };
-// }) {
-// 	const { param } = params; // ✅ sin use()
+// };
 
+// export async function generateMetadata({ params }: Props): Promise<Metadata> {
+// 	const { param } = params;
 // 	const post = blogData[param];
 
-// 	if (!post) return {};
+// 	if (!post) {
+// 		return {
+// 			title: "Artículo no encontrado",
+// 			description: "Este artículo no existe o fue eliminado.",
+// 		};
+// 	}
 
 // 	return {
 // 		title: post.title,
 // 		description: post.description,
 // 		authors: [{ name: post.author }],
+// 		openGraph: {
+// 			title: post.title,
+// 			description: post.description,
+// 			images: [post.img],
+// 		},
+// 		twitter: {
+// 			card: "summary_large_image",
+// 			title: post.title,
+// 			description: post.description,
+// 			images: [post.img],
+// 		},
 // 	};
 // }
 

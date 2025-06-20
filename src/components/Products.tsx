@@ -5,8 +5,8 @@ const Products = () => {
 		<div className="products">
 			<Product
 				title="Brownie de Plátano"
-				foto="/image (49).webp"
-				link="/FICHA TECNICA BROWNIE  DE PLATANO.webp"
+				foto="/image(1).webp"
+				link="/FICHA TECNICA BROWNIE DE PLATANO.webp"
 			>
 				Dulzura natural y textura esponjosa. El sabor del plátano se
 				mezcla con el cacao y la palta para crear un brownie delicioso y
@@ -14,7 +14,7 @@ const Products = () => {
 			</Product>
 			<Product
 				title="Brownie de Frutos Rojos"
-				foto="/image (47).webp"
+				foto="/image(2).webp"
 				link="/FICHA TECNICA BROWNIE DE FRUTOS ROJOS.webp"
 			>
 				Una fusión deliciosa entre lo dulce y lo ácido. Brownie de palta
@@ -23,7 +23,7 @@ const Products = () => {
 			</Product>
 			<Product
 				title="Brownie de Frutos Secos"
-				foto="image (48).webp"
+				foto="/image(3).webp"
 				link="/FICHA TECNICA BROWNIE DE FRUTOS SECOS.webp"
 			>
 				Nuestro brownie de palta con frutos secos combina el cacao con

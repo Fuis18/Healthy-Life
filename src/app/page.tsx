@@ -5,7 +5,7 @@ import Blogs from "@/components/Blogs";
 function Page() {
 	return (
 		<>
-			<Background type="img" src="image-1.webp" classname="home">
+			<Background type="img" src="/image-1.webp" classname="home">
 				<Reserve mode={true} />
 			</Background>
 			<main>

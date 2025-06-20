@@ -18,7 +18,13 @@ export default function Background({
 					<source src={src as string} type="video/mp4" />
 				</video>
 			) : (
-				<Image src={src} alt="background" priority />
+				<Image
+					src={src}
+					alt="background"
+					priority
+					width={400}
+					height={400}
+				/>
 			)}
 			{children}
 		</div>
