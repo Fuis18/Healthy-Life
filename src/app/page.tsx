@@ -2,6 +2,8 @@ import Background from "@/components/ui/Background";
 import Reserve from "@/components/ui/Reserve";
 import Products from "@/components/Products";
 import Blogs from "@/components/Blogs";
+import Galeria from "@/components/Galeria";
+import Team from "@/components/Team";
 function Page() {
 	return (
 		<>
@@ -33,11 +35,12 @@ function Page() {
 				</div>
 				<div id="Galeria">
 					<h2>Publicaciones</h2>
+					<Galeria></Galeria>
 				</div>
 				<div id="Blog">
 					<Blogs></Blogs>
 				</div>
-				<div id="Sobre Nosotros">
+				<div className="team__group" id="Sobre Nosotros">
 					<h2>Sobre Nosotros</h2>
 					<p>
 						En Healthy Life, trabajamos con pasión para ofrecerte
@@ -45,11 +48,19 @@ function Page() {
 						equipo aporta su talento para crear brownies con palta
 						que promueven un estilo de vida equilibrado. 💚
 					</p>
-				</div>
-				<div>
-					<h2>Has Tu Reserva</h2>
+					<Team></Team>
 				</div>
 			</main>
+			<div className="team__link">
+				<h2>Contáctanos</h2>
+				<p>
+					Si tienes preguntas sobre nuestros productos saludables o
+					deseas realizar un pedido especial, por favor completa el
+					siguiente formulario. Estamos aquí para ayudarte a disfrutar
+					de una vida más saludable con nuestros deliciosos postres.
+				</p>
+				<Reserve mode={true} />
+			</div>
 		</>
 	);
 }

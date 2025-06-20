@@ -4,7 +4,6 @@ export default function Reserve({ mode }: { mode: boolean }) {
 	if (mode) {
 		return (
 			<div className="reserve-container">
-				<p>Reserva tu pedido</p>
 				<Link
 					href="https://wa.me/51953110458"
 					target="_blank"

@@ -22,10 +22,21 @@ const Nav = () => {
 					<path d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"></path>
 				</svg>
 				<div className="nav-pages">
-					<Link href="/#Productos">Productos</Link>
-					<Link href="/#Galeria">Galería</Link>
-					<Link href="/#Blog">Blog</Link>
-					<Link href="/#Sobre Nosotros">Sobre Nosotros</Link>
+					<Link href="/#Productos" onClick={() => setModal(false)}>
+						Productos
+					</Link>
+					<Link href="/#Galeria" onClick={() => setModal(false)}>
+						Galería
+					</Link>
+					<Link href="/#Blog" onClick={() => setModal(false)}>
+						Blog
+					</Link>
+					<Link
+						onClick={() => setModal(false)}
+						href="/#Sobre Nosotros"
+					>
+						Sobre Nosotros
+					</Link>
 				</div>
 			</div>
 			<div className="navbar_responsive" onClick={() => setModal(true)}>

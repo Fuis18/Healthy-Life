@@ -39,7 +39,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	color: #fff;
-	background: #25d366;
+	background: #2c5;
 	gap: 0.25em;
 	padding: 15px 24px;
 }
@@ -51,6 +51,7 @@ a:hover {
 .reserve div {
 	font-size: 16px;
 	font-weight: bold;
+	padding: 0;
 }
 .reserve-container {
 	z-index: 1;
@@ -75,6 +76,31 @@ a:hover {
 	position: absolute;
 }
 
+.team__group {
+	text-align: center;
+}
+.team {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 24px;
+}
+.team-card {
+	background-color: #231f20;
+	border-radius: 20px;
+	color: #fff;
+}
+.team-card h3 {
+	font-size: 1.2rem;
+}
+
+.team__link {
+	background-color: #f4f2ff;
+	text-align: center;
+}
+.team__link,
+.team__link p {
+	padding-top: 20px;
+}
 main {
 	padding: 30px 50px;
 }
