@@ -2,7 +2,7 @@ import "@/styles/galeria.css";
 import Image from "next/image";
 const Galeria = () => {
 	const width = 400;
-	const height = 200;
+	const height = 180;
 	return (
 		<div className="wrapper">
 			<Image

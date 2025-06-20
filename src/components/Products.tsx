@@ -24,7 +24,7 @@ const Products = () => {
 			<Product
 				title="Brownie de Frutos Secos"
 				foto="/image(3).webp"
-				link="/FICHA TECNICA BROWNIE DE PLATANO.webp"
+				link="/FICHA TECNICA BROWNIE DE FRUTOS SECOS"
 			>
 				Nuestro brownie de palta con frutos secos combina el cacao con
 				nueces, almendras y más, para darte energía saludable en cada
