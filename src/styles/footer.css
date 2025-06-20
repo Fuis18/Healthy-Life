@@ -3,7 +3,7 @@
 	padding: 45px;
 	display: grid;
 	grid-template-rows: auto 40px;
-	gap: 16px;
+	gap: 25px;
 }
 .footer_links,
 .footer_icons {
@@ -11,8 +11,9 @@
 	justify-content: center;
 }
 .footer_links {
-	gap: 50px;
+	gap: 40px;
 	flex-direction: column;
+	text-align: center;
 }
 .footer_icons {
 	gap: 25px;
