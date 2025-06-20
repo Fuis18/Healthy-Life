@@ -1,0 +1,39 @@
+.footer {
+	background-color: #000;
+	padding: 45px;
+	display: grid;
+	grid-template-rows: auto 40px;
+	gap: 16px;
+}
+.footer_links,
+.footer_icons {
+	display: flex;
+	justify-content: center;
+}
+.footer_links {
+	gap: 50px;
+	flex-direction: column;
+}
+.footer_icons {
+	gap: 25px;
+}
+.footer_icons a {
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+	display: flex;
+}
+.footer_svg {
+	fill: #fff;
+	height: 16px;
+	width: 16px;
+}
+.footer a {
+	color: #fff;
+}
+
+@media (min-width: 500px) {
+	.footer_links {
+		flex-direction: row;
+	}
+}
